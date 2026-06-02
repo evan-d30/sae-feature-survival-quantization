@@ -22,13 +22,13 @@ notebooks/
   04_pythia_phase4_stability_ablations.ipynb  # Token budget, seed, null, layer checks
   05_phase5_feature_class_predictor.ipynb     # Logistic predictor + pruning overlap analysis
   06_gemma_sliding_window_ppl_check.ipynb     # Sliding-window perplexity robustness check
-  legacy/                                     # Earlier exploratory notebooks retained for provenance
+  legacy/
+results
+  results/tables/                               # CSV/JSON summary tables
+  results/figures/                              # Figures used for analysis and appendix plots
+  results/per_feature/                          # Per-feature overlap CSVs                                  
 scripts/                                      # Auto-exported .py versions of curated notebooks
 src/qdm_feature_survival/metrics.py           # Small reusable metric utilities
-results/tables/                               # CSV/JSON summary tables
-results/figures/                              # Figures used for analysis and appendix plots
-results/per_feature/                          # Per-feature overlap CSVs
-paper/draft_anonymous.pdf                     # Latest anonymized PDF draft included for context
 ```
 
 ## Setup
