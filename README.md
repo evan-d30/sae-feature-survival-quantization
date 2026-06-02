@@ -1,2 +1,2 @@
 # sae-feature-survival-quantization
-Code and results for measuring sparse-autoencoder feature survival under language-model quantization.
+This repository contains the notebook and analysis artifacts for **How Quantization Changes Interpretable Features in Language Models**
