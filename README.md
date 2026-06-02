@@ -30,3 +30,21 @@ results/figures/                              # Figures used for analysis and ap
 results/per_feature/                          # Per-feature overlap CSVs
 paper/draft_anonymous.pdf                     # Latest anonymized PDF draft included for context
 ```
+
+## Setup
+
+Create an environment with pip:
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+or conda
+
+```bash
+conda env create -f environment.yml
+conda activate qdm-feature-survival
+```
+
+Note that for some Gemma runs may require accepting the relevant model license on HF and logging in locally or an API key. Notebook is written so HF login in optional.
