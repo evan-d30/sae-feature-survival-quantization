@@ -48,3 +48,40 @@ conda activate qdm-feature-survival
 ```
 
 Note that for some Gemma runs may require accepting the relevant model license on HF and logging in locally or an API key. Notebook is written so HF login in optional.
+
+
+## Reproduction order
+
+Before running the main pipeline, we recommend a smoke test as we did for our original experiment.
+
+For a quick check:
+
+1. Run `notebooks/00_smoke_test.ipynb`.
+2. Run `notebooks/00_smoke_test_v2.ipynb`.
+
+For the main paper pipeline:
+
+1. Run `notebooks/02_pythia_phase2b_streaming_final.ipynb` for Pythia-70M.
+2. Run `notebooks/03_gemma_phase3_streaming_sweep.ipynb` for Gemma-2-2B.
+3. Run `notebooks/04_pythia_phase4_stability_ablations.ipynb` for stability checks.
+4. Run `notebooks/05_phase5_feature_class_predictor.ipynb` for feature-statistics prediction and pruning-overlap analysis.
+5. Run `notebooks/06_gemma_sliding_window_ppl_check.ipynb` for the sliding-window perplexity check.
+
+The notebooks include test/full run modes where applicable. Gemma runs require substantial ammount of time and computing power.
+
+## Data and model dependencies
+
+This repo does not include model weights, SAE weights, or raw WikiText data. The notebooks download models, SAEs, and WikiText-2 through standard libraries:
+
+- Hugging Face `datasets`
+- `transformer_lens`
+- `sae_lens`
+- Hugging Face model hub
+
+## Included result artifacts
+
+The `results/` directory contains the summary tables, feature-class prediction outputs, pruning-overlap tables, and figures used to assemble the paper's reported numbers. Large model checkpoints are intentionally excluded.
+
+## License
+
+Code is released under the MIT License. Dataset/model/SAE artifacts remain governed by their original licenses.
