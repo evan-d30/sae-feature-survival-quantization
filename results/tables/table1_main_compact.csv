@@ -1,0 +1,15 @@
+Model,Condition,Bits,Prune sparsity,ΔPPL (%),Mean corr.,Survived (%),Degraded (%),Damaged (%)
+Pythia-70M,FP16 baseline,16,,0.0,1.0,100.0,0.0,0.0
+Pythia-70M,RTN INT8,8,,1.02,0.981,98.312,1.688,0.0
+Pythia-70M,RTN INT7,7,,2.258,0.957,86.322,13.678,0.0
+Pythia-70M,RTN INT6,6,,14.722,0.888,62.395,36.586,1.02
+Pythia-70M,RTN INT5,5,,71.208,0.777,37.957,49.455,12.588
+Pythia-70M,RTN INT4,4,,371.112,0.583,14.504,47.785,37.711
+Pythia-70M,Magnitude pruning matched INT6,16,0.175,13.488,0.891,60.97,38.731,0.299
+Gemma-2-2B,FP16 baseline,16,,0.0,1.0,100.0,0.0,0.0
+Gemma-2-2B,RTN INT8,8,,2.624,0.966,99.09,0.91,0.0
+Gemma-2-2B,RTN INT7,7,,-5.648,0.943,81.257,18.743,0.0
+Gemma-2-2B,RTN INT6,6,,3.989,0.891,51.302,48.698,0.0
+Gemma-2-2B,RTN INT5,5,,17.716,0.764,27.716,66.363,5.921
+Gemma-2-2B,RTN INT4,4,,46.081,0.494,12.402,32.895,54.703
+Gemma-2-2B,Magnitude pruning matched INT6,,0.162,6.126,0.841,38.578,61.184,0.238

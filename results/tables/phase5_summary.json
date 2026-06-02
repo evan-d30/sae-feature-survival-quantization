@@ -1,0 +1,58 @@
+{
+  "pythia": {
+    "n_samples": 5688,
+    "frac_survived": 0.6239451476793249,
+    "cv_auc_mean": 0.9241818298263584,
+    "cv_auc_std": 0.007375164754375649,
+    "coefficients": [
+      {
+        "property": "rarity",
+        "standardized_coef": 4.517407315406384,
+        "abs_coef": 4.517407315406384
+      },
+      {
+        "property": "log_mean_activation",
+        "standardized_coef": 2.723644337446635,
+        "abs_coef": 2.723644337446635
+      },
+      {
+        "property": "log_concentration",
+        "standardized_coef": -1.6741108089613266,
+        "abs_coef": 1.6741108089613266
+      },
+      {
+        "property": "log_max_activation",
+        "standardized_coef": 1.6649291393939925,
+        "abs_coef": 1.6649291393939925
+      }
+    ]
+  },
+  "gemma": {
+    "n_samples": 7144,
+    "frac_survived": 0.5130179171332587,
+    "cv_auc_mean": 0.9712463232594054,
+    "cv_auc_std": 0.0023541264846375556,
+    "coefficients": [
+      {
+        "property": "rarity",
+        "standardized_coef": 17.84289760188166,
+        "abs_coef": 17.84289760188166
+      },
+      {
+        "property": "log_mean_activation",
+        "standardized_coef": 9.793670570383489,
+        "abs_coef": 9.793670570383489
+      },
+      {
+        "property": "log_concentration",
+        "standardized_coef": -8.16411100504105,
+        "abs_coef": 8.16411100504105
+      },
+      {
+        "property": "log_max_activation",
+        "standardized_coef": 4.135502637870601,
+        "abs_coef": 4.135502637870601
+      }
+    ]
+  }
+}

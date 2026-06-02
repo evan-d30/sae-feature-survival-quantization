@@ -1,0 +1,24 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+tqdm
+
+# Model/data stack
+torch
+transformers
+transformer-lens
+sae-lens
+datasets
+huggingface-hub
+accelerate
+
+# Optional, used in some exploratory / deployment-oriented checks
+bitsandbytes
+
+# Notebook use
+jupyter
+ipykernel
+nbformat
