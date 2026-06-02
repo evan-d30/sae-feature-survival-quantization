@@ -1,0 +1,44 @@
+{
+  "curated_notebooks": [
+    {
+      "source": "qdm_smoke_test(1).ipynb",
+      "repo_path": "notebooks/00_smoke_test.ipynb",
+      "cells": 31
+    },
+    {
+      "source": "qdm_smoke_test_v2(1).ipynb",
+      "repo_path": "notebooks/00_smoke_test_v2.ipynb",
+      "cells": 30
+    },
+    {
+      "source": "qdm_phase2a_pythia70m(3).ipynb",
+      "repo_path": "notebooks/01_pythia_phase2a_bitwidth_sweep.ipynb",
+      "cells": 31
+    },
+    {
+      "source": "qdm_phase2b_pythia70m_streaming_final(2).ipynb",
+      "repo_path": "notebooks/02_pythia_phase2b_streaming_final.ipynb",
+      "cells": 20
+    },
+    {
+      "source": "qdm_phase3_gemma_streaming_3a_3b (1).ipynb",
+      "repo_path": "notebooks/03_gemma_phase3_streaming_sweep.ipynb",
+      "cells": 30
+    },
+    {
+      "source": "qdm_phase4_stability_v2(1).ipynb",
+      "repo_path": "notebooks/04_pythia_phase4_stability_ablations.ipynb",
+      "cells": 23
+    },
+    {
+      "source": "qdm_phase5_feature_class (1).ipynb",
+      "repo_path": "notebooks/05_phase5_feature_class_predictor.ipynb",
+      "cells": 33
+    },
+    {
+      "source": "gemma_sliding_window_ppl_colab.ipynb",
+      "repo_path": "notebooks/06_gemma_sliding_window_ppl_check.ipynb",
+      "cells": 13
+    }
+  ]
+}
