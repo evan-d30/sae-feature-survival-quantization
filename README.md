@@ -69,6 +69,8 @@ For the main paper pipeline:
 
 The notebooks include test/full run modes where applicable. Gemma runs require substantial ammount of time and computing power.
 
+The scripts in `scripts/` are the recommended entry points for reproduction. The notebooks in `notebooks/` are included for transparency and exploratory provenance.
+
 ## Data and model dependencies
 
 This repo does not include model weights, SAE weights, or raw WikiText data. The notebooks download models, SAEs, and WikiText-2 through standard libraries:
