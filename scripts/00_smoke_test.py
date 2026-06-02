@@ -14,9 +14,6 @@
 # %% Cell 3
 # !pip install -q transformer-lens sae-lens datasets tqdm matplotlib
 
-# %% [markdown]
-# ## 2. GPU check and importsVerify you have a GPU. T4 is fine. If you see "no GPU", change Runtime → Change runtime type → GPU.
-
 # %% Cell 5
 import torch
 import numpy as np
