@@ -13,15 +13,6 @@ The project asks whether sparse-autoencoder (SAE) features extracted from a full
 ## Repository structure
 
 ```text
-notebooks/
-  00_smoke_test.ipynb                         # Tiny end-to-end QDM pipeline check
-  00_smoke_test_v2.ipynb                      # Less aggressive smoke test
-  01_pythia_phase2a_bitwidth_sweep.ipynb      # Early Pythia bit-width sweep
-  02_pythia_phase2b_streaming_final.ipynb     # Main Pythia streaming run
-  03_gemma_phase3_streaming_sweep.ipynb       # Main Gemma streaming run
-  04_pythia_phase4_stability_ablations.ipynb  # Token budget, seed, null, layer checks
-  05_phase5_feature_class_predictor.ipynb     # Logistic predictor + pruning overlap analysis
-  06_gemma_sliding_window_ppl_check.ipynb     # Sliding-window perplexity robustness check
 results
   results/tables/                               # CSV/JSON summary tables
   results/figures/                              # Figures used for analysis and appendix plots
