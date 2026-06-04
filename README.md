@@ -22,7 +22,6 @@ notebooks/
   04_pythia_phase4_stability_ablations.ipynb  # Token budget, seed, null, layer checks
   05_phase5_feature_class_predictor.ipynb     # Logistic predictor + pruning overlap analysis
   06_gemma_sliding_window_ppl_check.ipynb     # Sliding-window perplexity robustness check
-  legacy/
 results
   results/tables/                               # CSV/JSON summary tables
   results/figures/                              # Figures used for analysis and appendix plots
