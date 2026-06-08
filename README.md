@@ -3,6 +3,8 @@ This repository contains the notebook and analysis artifacts for **How Quantizat
 
 The project asks whether sparse-autoencoder (SAE) features extracted from a full precision language model remain "faithful" after a model is quantized. The core measurement uses a frozen SAE as a fixed basis: FP16 and compressed activations are computed on identical tokens, encoded by the same SAE, and compared feature-by-feature with Pearson correlation.
 
+📄 Our paper is now on arXiv — come read it: [Perplexity Can Miss SAE Feature Damage Under Quantization](https://arxiv.org/abs/2606.03002)
+
 ## Main claims reproduced by this repo
 
 - SAE feature survival degrades gradually as RTN bit-width decreases from INT8 to INT4.
