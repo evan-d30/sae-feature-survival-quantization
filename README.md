@@ -74,6 +74,17 @@ This repo does not include model weights, SAE weights, or raw WikiText data. The
 
 The `results/` directory contains the summary tables, feature-class prediction outputs, pruning-overlap tables, and figures used to assemble the paper's reported numbers. Large model checkpoints are intentionally excluded.
 
+## Citations
+@misc{duan2026perplexity,
+  title={Perplexity Can Miss SAE Feature Damage Under Quantization},
+  author={Evan Duan},
+  year={2026},
+  eprint={2606.03002},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2606.03002}
+}
+
 ## License
 
 Code is released under the MIT License. Dataset/model/SAE artifacts remain governed by their original licenses.
